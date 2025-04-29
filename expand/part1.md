@@ -1,0 +1,3 @@
+# 1. Since add is true, the if statement runs, resulting in the var result to have the value 20, printing "values added: 20"
+# 2. Since var result can be accessed outside of the its block, "final result: 20" will be printed.
+# 3. Having a variable be accessible outside of its block can lead to unexpected behavior. Var declaration are also hoisted to the top of the function, which can cause unexpected behavior is it is assumed to be undefined. Unlike const and let, var doesn't throw an error if accessed before declaration, instead returning undefined, which can cause unexpected bugs.
