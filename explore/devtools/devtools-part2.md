@@ -1,0 +1,2 @@
+1) The bug was that the inputed numbers to be added were being processed as strings, so the function was concatenating them as strings instead of adding.
+2) I fixed them by converting them to numbers when they are first declared in printSum() using Number().
